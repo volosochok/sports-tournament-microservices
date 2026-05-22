@@ -1,0 +1,18 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: statistics-service
+
+logging:
+  level:
+    com.sportstournament: DEBUG
+
+tournament:
+  service:
+    url: http://localhost:8081
+
+match:
+  service:
+    url: http://localhost:8082
